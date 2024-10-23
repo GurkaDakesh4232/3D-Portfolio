@@ -39,7 +39,7 @@ const About = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={styles.sectionSubText}>Introduction</p>
+        <p className={styles.sectionSubText}>About Us</p>
         <h2 className={styles.sectionHeadText}>Overview.</h2>
       </motion.div>
 
@@ -47,11 +47,14 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I'm a skilled software developer with experience in TypeScript and
-        JavaScript, and expertise in frameworks like React, Node.js, and
-        Three.js. I'm a quick learner and collaborate closely with clients to
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
+        I am a Full Stack Developer with expertise in Python, JavaScript, 
+        React.js, Django, and Data Science. My passion for solving problems 
+        through code and building interactive, user-friendly applications has
+         led me to work on a variety of impactful projects. I have hands-on
+          experience with backend and frontend frameworks, machine learning,
+           and data analysis tools, ensuring comprehensive solutions from concept to deployment!..
+
+
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>
@@ -63,4 +66,4 @@ const About = () => {
   );
 };
 
-export default SectionWrapper(About, "about");
+export default SectionWrapper(About, "about"); 

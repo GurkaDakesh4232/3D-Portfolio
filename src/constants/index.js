@@ -7,22 +7,31 @@ import {
   typescript,
   html,
   css,
+  bootstrap,
+  django,
+  pandas,
+  matplot,
+  numpy,
+  mysql,
+  canva,
   reactjs,
   redux,
   tailwind,
   nodejs,
   mongodb,
-  git,
+  webapi,
   figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
+  python,
+  knrr,
+  vjc,
+  zp,
   carrent,
   jobit,
+  gym,
   tripguide,
   threejs,
+  github,
 } from "../assets";
 
 export const navLinks = [
@@ -31,9 +40,28 @@ export const navLinks = [
     title: "About",
   },
   {
-    id: "work",
-    title: "Work",
+    id: "tech",
+    title: "Skills",
   },
+
+
+  {
+    id: "project",
+    title: "Project",
+  },
+
+  {
+    id: "work",
+    title: "Education",
+  },
+
+  {
+    id: "achievement",
+    title: "Achievements",
+  },
+
+
+
   {
     id: "contact",
     title: "Contact",
@@ -46,7 +74,7 @@ const services = [
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Python Developer",
     icon: mobile,
   },
   {
@@ -54,12 +82,13 @@ const services = [
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Graphic Designer",
     icon: creator,
   },
 ];
 
 const technologies = [
+  
   {
     name: "HTML 5",
     icon: html,
@@ -73,24 +102,30 @@ const technologies = [
     icon: javascript,
   },
   {
-    name: "TypeScript",
-    icon: typescript,
+    name: "bootstrap",
+    icon: bootstrap,
   },
   {
     name: "React JS",
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
+    name: "python",
+    icon: python,
   },
+  {
+    name: "django",
+    icon: django,
+  },
+
+
   {
     name: "Tailwind CSS",
     icon: tailwind,
   },
   {
-    name: "Node JS",
-    icon: nodejs,
+    name: "webapi",
+    icon: webapi,
   },
   {
     name: "MongoDB",
@@ -101,165 +136,189 @@ const technologies = [
     icon: threejs,
   },
   {
-    name: "git",
-    icon: git,
+    name: "mysql",
+    icon: mysql,
   },
   {
-    name: "figma",
-    icon: figma,
+    name: "bootstrap",
+    icon: numpy,
   },
-  {
-    name: "docker",
-    icon: docker,
-  },
+  
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Bachelor of Technology (B.Tech) ",
+    company_name: "(Kasireddy Narayan Reddy College of Engineering and Research)",
+    icon: knrr,  // Placeholder for the icon representing the college
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "April 2020 - July 2024",
+    
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Specilization in Computer Science and Engineering",
+      "Gratuated in 2024 July",
+      "percentage 72%",
+      "Address Abdulapurmet ,Near to Ramoji film city,Rangareddy(dist) 501510",
+     
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Intermediate",
+    company_name: "Vaagdevi junior Collage",
+    icon: vjc,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "April 2018 - 2020March",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Specilization in MPC",
+      "Graduated in 2020 March",
+      "Percentage 70%",
+      "Address jangidipuram colony Wanaparthy 509103.",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    title: "SSC",
+    company_name: "ZP High School",
+    icon: zp,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "March 2018",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Passed out Year 2018 March",
+      "Grade 7.5",
+      "Adress Srirangapur Wanaparthy (dist) 509104",
     ],
   },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
+ 
+
+
+  
 ];
 
 const testimonials = [
   {
     testimonial:
       "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
+    name: "Python 101 for Data Science",
+    designation: "Provided By IBM",
+    company: "2024 Sep",
     image: "https://randomuser.me/api/portraits/women/4.jpg",
   },
   {
     testimonial:
       "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
+    name: "Project Management Job Simulation",
+    designation: "By Accenture",
     company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+    image: "",
+
   },
   {
     testimonial:
       "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
+    name: "advanced Software Engineering Job Simulation",
+    designation: "By Walmart",
     company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
-  },
+       image:"" 
+       },
 ];
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Z-Mart E-Commerce Project",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Full-stack web development experience using Django, React.js, and e-commerce concepts. Highlights real-world problem-solving in building dynamic applications.",
     tags: [
       {
-        name: "react",
+        name: "python",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "Django",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "WebPack",
         color: "pink-text-gradient",
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/GurkaDakesh4232/Z-mart-Ecommerce",
   },
   {
-    name: "Job IT",
+    name: "Black Bucket Biryani(online booking)",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "The Black Bucket Biryani project provides a unique online platform for customers to order a flavorful,featuring a diverse menu, secure transactions, and real-time order tracking..",
     tags: [
       {
-        name: "react",
+        name: "python",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "mysql,django",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "frontend",
         color: "pink-text-gradient",
       },
     ],
     image: jobit,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/GurkaDakesh4232/Black-Bucket-biryani-website",
   },
   {
-    name: "Trip Guide",
+    name: "Gemini Clone",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      
+       "The Gemini Clone App is a modern web application that replicates the core features of Gemini, enabling users to connect, share, and discover content seamlessly.",
     tags: [
       {
-        name: "nextjs",
+        name: "Reactjs",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "Gemini API",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "Nodejs",
         color: "pink-text-gradient",
       },
     ],
     image: tripguide,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/GurkaDakesh4232/Gemini-clone",
+  },
+
+
+  {
+    name: "GYM Management",
+    description:
+      
+       "The Gym Management App is a platform designed to streamline gym operations, enabling easy membership management,performance tracking ,trainers..",
+    tags: [
+      {
+        name: "Django",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Pythob",
+        color: "green-text-gradient",
+      },
+      {
+        name: "MySQL",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: gym,
+    source_code_link: "https://github.com/GurkaDakesh4232/GYM-project-02-sep-2024",
   },
 ];
+
+
+
+
+
+
+
+
 
 export { services, technologies, experiences, testimonials, projects };
