@@ -182,7 +182,6 @@ const experiences = [
     iconBg: "#383E56",
     date: "March 2018",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
       "Passed out Year 2018 March",
       "Grade 7.5",
       "Adress Srirangapur Wanaparthy (dist) 509104",
