@@ -10,11 +10,12 @@ import accproject from "../assets/certificates/accproject.jpg";
 import py101 from "../assets/certificates/py101.jpg";
 import walmart from "../assets/certificates/walmart.jpg";
 import dev from "../assets/certificates/dev.jpg";
+import tata from "../assets/certificates/tata.jpg";
 
 // Sample certification data with LinkedIn URLs
 const certifications = [
   {
-    name: "Accenture",
+    name: "Accenture1",
     date: "July 2024",
     description: "Project Management Job Simulation.",
     image: accproject,
@@ -36,11 +37,18 @@ const certifications = [
   },
 
   {
-    name: "Accenture",
+    name: "Accenture2",
     date: "July 2024",
     description: " Developer and Technology .",
     image: dev,
     linkedinUrl: "https://www.linkedin.com/posts/gurka-dakesh-719928314_im-happy-to-share-that-ive-obtained-a-new-activity-7222855582913884160-pg2v?utm_source=share&utm_medium=member_desktopp"
+  },
+   {
+    name: "TATA",
+    date: "Oct 2024",
+    description: " Data visualization .",
+    image: tata,
+    linkedinUrl: "https://www.linkedin.com/posts/gurka-dakesh-719928314_im-happy-to-share-that-ive-obtained-a-new-activity-7256158266718662656-dYIK?utm_source=share&utm_medium=member_desktop"
   },
 ];
 
