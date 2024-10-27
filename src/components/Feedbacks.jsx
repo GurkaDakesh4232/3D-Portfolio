@@ -10,7 +10,7 @@ import accproject from "../assets/certificates/accproject.jpg";
 import py101 from "../assets/certificates/py101.jpg";
 import walmart from "../assets/certificates/walmart.jpg";
 import dev from "../assets/certificates/dev.jpg";
-import tata from "../assets/certificates/tata.jpg";
+import tata from "../assets/certificates/Tata.jpg";
 
 // Sample certification data with LinkedIn URLs
 const certifications = [
